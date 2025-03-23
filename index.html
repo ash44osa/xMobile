@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Navigation Example</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      media="screen"
+      href="css/styles.min.css"
+    />
+
+    <!-- Google Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Spline+Sans:wght@300;500&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <div id="headerWrapper">
+     <header>
+        <div class="logo">
+          <img
+            src="images/logo1x.png"
+            alt="site logo"
+            width="45"
+            height="50"
+            srcset="
+              images/logo1x.png 1x,
+              images/logo2x.png 2x,
+              images/logo3x.png 3x
+            "
+          />
+        </div>
+        <span>Skye Wireless</span>
+        <nav id="primaryNav">
+          <button></button>
+          <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Services</a></li>
+            <li class="active"><a href="#">Deals</a></li>
+            <li><a href="#">Shop</a></li>
+            <li><a href="#">Contact Us</a></li>
+          </ul>
+        </nav>
+      </header>
+    </div>
+    <!-- end header wrapper -->
+
+    <div id="mainWrapper">
+      <main>
+        <h1>Shop the Latest Phones & Tech</h1>
+
+        <div class="row">
+          <div class="column small-12 medium-6">
+            <section class="line round">
+              <h3>Why Shop With Us?</h3>
+              <p>
+                We offer the latest tech devices with competitive pricing,
+                exceptional customer service, and fast shipping. Whether you’re
+                looking for a smartphone, tablet, or wearable, we’ve got you
+                covered.
+              </p>
+            </section>
+          </div>
+          <div class="column small-12 medium-6">
+            <section class="line round">
+              <h3>Our Promise</h3>
+              <p>
+                We stand behind every product with a satisfaction guarantee.
+                Shop confidently knowing that we only offer trusted brands and
+                the newest devices on the market.
+              </p>
+            </section>
+          </div>
+        </div>
+
+        <div class="row">
+          <!-- Uneven Grid -->
+          <div class="column small-6 medium-5 large-6">
+            <section class="shadow round">
+              <h3>Exclusive Trade-In Deals</h3>
+              <p>
+                Get up to $800 credit when you trade in your old device for a
+                new iPhone 15 or Galaxy S24.
+              </p>
+            </section>
+          </div>
+          <div class="column small-6 medium-4 large-3">
+            <section class="shadow round">
+              <h3>Student Discounts</h3>
+              <p>
+                Save 10% on select devices and accessories with verified student
+                ID.
+              </p>
+            </section>
+          </div>
+          <div class="column small-12 medium-3 large-3">
+            <section class="shadow round">
+              <h3>Limited-Time Offer</h3>
+              <p>
+                Free wireless charger with the purchase of any smartphone. Ends
+                March 31st!
+              </p>
+            </section>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="column small-12">
+            <section class="line fill round featured-product">
+              <h2>Featured Product: iPhone 15 Pro Max</h2>
+              <p>
+                The most powerful iPhone yet with a titanium body, A17 Pro chip,
+                and advanced camera system. Pre-order now and get free AirPods!
+              </p>
+              <img
+                src="images/15promax.png"
+                alt="iPhone 15 Pro Max"
+                style="width:auto; border-radius: 1rem"
+              />
+            </section>
+          </div>
+        </div>
+
+        <h2>Phones & More</h2>
+        <div class="row">
+          <div class="column small-12 medium-6 large-4">
+            <section class="shadow round">
+              <img src="images/15pro.png" alt="iPhone 15" />
+              <h2>iPhone 15 Pro</h2>
+              <p>
+                Starting at $999. Experience the latest in performance and
+                design.
+              </p>
+            </section>
+          </div>
+          <div class="column small-12 medium-6 large-4">
+            <section class="shadow round">
+              <img src="images/galaxys24.png" alt="Galaxy S24"/>
+              <h2>Samsung Galaxy S24</h2>
+              <p>Powerful, sleek, and ultra-fast. Starting at $799.</p>
+            </section>
+          </div>
+          <div class="column small-12 medium-6 large-4">
+            <section class="shadow round">
+              <img src="images/pixel8.png" alt="Google Pixel 8" />
+              <h2>Google Pixel 8</h2>
+              <p>
+                Exceptional camera and smooth performance. Starting at $699.
+              </p>
+            </section>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="column small-12 medium-6 large-3">
+            <img src="images/podspro.png" alt="AirPods Pro" />
+            <p>AirPods Pro — $249</p>
+          </div>
+          <div class="column small-12 medium-6 large-3">
+            <img src="images/galbuds.png" alt="Galaxy Buds" />
+            <p>Galaxy Buds — $149</p>
+          </div>
+          <div class="column small-12 medium-6 large-3">
+            <img src="images/magsafe.png" alt="MagSafe Charger" />
+            <p>MagSafe Charger — $39</p>
+          </div>
+          <div class="column small-12 medium-6 large-3">
+            <img src="images/pixwatch.png" alt="Pixel Watch" />
+            <p>Pixel Watch — $349</p>
+          </div>
+        </div>
+    <!-- end main wrapper -->
+
+    <div id="footerWrapper">
+      <footer>
+        <p>
+          Copyright &copy; 2025 Skye Wireless Inc. All rights reserved.
+        </p>
+      </footer>
+    </div>
+    <!-- end footer wrapper -->
+    <script src="js/scripts.js" type="module"></script>
+  </body>
+</html>
